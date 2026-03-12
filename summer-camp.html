@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WESA | Summer Camp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="camp-page">
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="index.html" class="logo">WESA</a>
+      <nav class="main-nav" aria-label="主要ナビゲーション">
+        <a href="index.html">Home</a>
+        <a href="activities.html">Activities</a>
+        <a href="events.html" aria-current="page">Events</a>
+        <a href="join.html">Join</a>
+        <a href="chat.html">Chat</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn btn-secondary" href="events.html">新歓日程</a>
+        <a class="btn btn-primary" href="join.html">参加する</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-media js-reveal"><img src="34.jpg" alt="Summer Campの写真"></div>
+        <div class="hero-copy js-reveal">
+          <h1>Summer Camp</h1>
+          <p>三代でやる最大のイベント！オリセンで通いで行うよ！！</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section js-reveal">
+      <div class="container">
+        <h2>概要</h2>
+        <article class="card">
+          <p>交流、DDSLのための貴重な5日間！</p>
+          <p>初心者も参加しやすいように先輩が優しく教えてくれるよ！！</p>
+          <p>まずは自分のやりたいアクティビティのページを見てみよう！！</p>
+        </article>
+
+        <h2 style="margin-top:1.1rem;">日程</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>日付(全プレ)</th><th>日付(本番)</th><th>時間</th><th>場所</th><th>対象</th><th>備考</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>8/5, 7, 10, 11, 13, 16, 19, 21 </td><td>8/26, 27, 28, 29</td><td>10:00~17:00</td><td>青少年国立オリンピックセンター</td><td>全メンバー</td><td>予定</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 style="margin-top:1.1rem;">内容</h2>
+        <article class="card">
+          <ul>
+            <li>英語劇をみんなで考え実演！</li>
+            <li>DDSL全部を体験！</li>
+            <li>レッスンごとに分かれて交流！</li>
+            <li>2週間近い期間で中を深める！</li>
+            <li>3代で行う最大のイベントだよ！</li>
+          </ul>
+        </article>
+
+        <h2 style="margin-top:1.1rem;">Gallery</h2>
+        <div class="gallery">
+          <img class="gallery-main" src="38.jpg" alt="Summer Camp メイン">
+          <div class="gallery-mini">
+            <img src="33.jpg" alt="Summer Camp 1">
+            <img src="35.jpg" alt="Summer Camp 2">
+            <img src="36.jpg" alt="Summer Camp 3">
+            <img src="37.jpg" alt="Summer Camp 4">
+          </div>
+        </div>
+
+        <h2 style="margin-top:1.1rem;">FAQ</h2>
+        <dl class="card">
+          <div class="faq-item"><dt>Q: 初心者でも参加できますか？</dt><dd>A: もちろん！どんな子でも大歓迎だよ！！</dd></div>
+          <div class="faq-item"><dt>Q: 参加費はかかりますか？</dt><dd>A: 参加費は5000円！何回来てくれても同じ値段だよ！</dd></div>
+          <div class="faq-item"><dt>Q: 持ち物は？</dt><dd>A： 持ち物は基本なくてOK！パソコンがあると勉強になるよ！</dd></div>
+        </dl>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="join.html">参加する（申込）</a>
+          <a class="btn btn-secondary" href="chat.html">質問する（Chatbot）</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="footer-links">
+        <a href="https://www.instagram.com/wesa_2026/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://x.com/wesa_shinkan" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://line.me/" target="_blank" rel="noopener noreferrer">LINE</a>
+      </div>
+      <p>お問い合わせ: wesagoyaku76@gmail.com</p>
+      <p>活動場所: 国立青少年オリンピックセンター</p>
+    </div>
+  </footer>
+
+  <button class="btn btn-primary chat-fab" data-chat-toggle>質問する</button>
+  <aside class="chat-widget" data-chat-panel hidden>
+    <h3>質問する</h3>
+    <input type="text" data-chat-input placeholder="日程、活動内容、初心者向け情報などを聞いてください。">
+    <div class="quick-list">
+      <button data-question="schedule">新歓日程を教えて</button>
+      <button data-question="beginner">初心者でも参加できる？</button>
+      <button data-question="frequency">活動は週何回？</button>
+      <button data-question="fee">参加費はある？</button>
+      <button data-question="diff">Debate / Speech / Discussion / Lesson の違いは？</button>
+    </div>
+    <div class="hero-actions"><button class="btn btn-secondary" data-chat-send>回答する</button></div>
+    <div class="answer-box" data-chat-answer>質問を選択してください。</div>
+    <div class="related-links" data-chat-related></div>
+  </aside>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
