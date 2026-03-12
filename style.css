@@ -136,7 +136,6 @@ img {
   display: block;
   filter: drop-shadow(0 4px 10px rgba(166, 31, 36, 0.18));
 }
-
 .logo-text {
   display: inline-block;
   color: inherit;
@@ -3196,4 +3195,5 @@ th {
     scroll-behavior: auto !important;
   }
 }
+
 
